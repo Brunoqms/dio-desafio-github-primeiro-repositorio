@@ -1,0 +1,37 @@
+# GIT
+SHA1
+Sigla SHA significa (secure hash algorithm) “ALGORITMO DE HASH SEGURO” é um conjunto de funções hash criptográficas projetadas pela NSA (AGÊNCIA DE SEGURANÇA NASCIONAL DOS EUA). A encriptação gera conjunto de characteres identificador de 40 dígitos.
+É uma forma curta de representar um arquivo.
+
+## OBJETOS FUNDAMENTAIS
+Funcionalidade básica. 
+BLOBS – (Bolhas) contém metadados/informações do objeto “Tipo, tamanho” 
+TREES – (Arvores) ela armazena os (blobs) que também contém metadados, como (tamanho, a /0 ela aponta para um blob e o nome do objeto).  
+COMMITS – aponta para Trees e as blobs (COMMITS/TREES/BLOBS)
+ 
+### SISTEMA DISTRIBUIDO SEGURO
+EXEMPLIFICAR (Um arquivo final está armazenado no servidor da Nuven, além disso ela está sendo aguardada uma cópia em outras maquinas que dão manutenção nelas, se caso a Nuven seja desfeita as versões que estão nas outras maquinas ainda seria uma cópia confiável.)
+CHAVE SSH
+Comandos para criação:
+*passo 1 = ssh-keygen -t ed25519 -C (Aqui digite o e-mail) depois (enter)
+*passo 2 = (enter)
+*passo 3 = criar uma senha
+Depois de gerar, navegue até a pasta, (/c/Users/Bruno/.ssh/id_ed25519)
+Use comando “cat” para ver a chave e depois copiei e cole no site da Git. 
+*passo 4 = adicionar essa chave no site. 
+Eval $(ssh-agent -s)
+Ssh-add id_ed25519
+
+#### PRIMEIROS COMANDOS NO GIT. 
+- git init
+- git add
+- git commit
+- git clone
+- git status
+- git add .
+- git add -a
+
+( ls -a) para ver arquivos ocultos. User.mane
+
+
+
