@@ -1,7 +1,7 @@
 # Repositório para os Desafios e Projetos da DIO
 
-Primeiro Desafio: Projeto sobre GIT/GitHub 
-(Criar um repositório no GitHub, no qual será útil para os projetos e desagios ao longo do curso da Dio)
+_Primeiro Desafio: Projeto sobre GIT/GitHub_ 
+- [Criar um repositório no GitHub] - no qual será útil para os projetos e desafios ao longo do curso da Dio.
 
 ## Links Úteis
 
